@@ -7,6 +7,14 @@ function onkoKirjautunut() {
     }
 }
 function kirjaudu(){
-    Localstorage.setItem("nimi");
-    Localstorage.setItem("salasana");
+    Unimi = document.getElementById("nimi").value;
+    Usalasana = document.getElementById("salasana").value;
+    console.log(Unimi + " " + Usalasana);
+    localStorage.setItem("nimi", Unimi);
+    localStorage.setItem("salasana", Usalasana);
+    //redirect();
+    window.location.href="index.html";
+}
+function redirect(){
+    window.location.href="index.html";
 }
