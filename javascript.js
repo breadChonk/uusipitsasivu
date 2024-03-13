@@ -18,3 +18,6 @@ function kirjaudu(){
 function redirect(){
     window.location.href="index.html";
 }
+function redirect(){
+    window.location.href="index.html";
+}
