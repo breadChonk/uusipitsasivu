@@ -34,15 +34,14 @@
             <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
             <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
             <button onclick="order('Margherita')">Order</button>
-            <button onclick="addTopping('Margherita')">Edit pizza</button>
-
+            <a href="customize_pizza.html?pizza=Margherita"><button>Edit pizza</button></a>
             <hr>
 
             <h1><b>4 cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
             <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
             <button onclick="order('4 cheese')">Order</button>
-            <button onclick="addTopping('4 cheese')">Edit pizza</button>
-
+            <a href="customize_pizza.html?pizza=4 cheese"><button>Edit pizza</button></a>
+            <hr>
             <hr>
             <h1><b>BBQ chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
             <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions, BBQ sauce</p>
@@ -84,12 +83,11 @@
             <button onclick="order('Fantasy 2')">Order</button>
             <button onclick="addTopping('Fantasy 2')">Edit pizza</button>
             <hr>
-            <!-- Add more pizza options here -->
         </div>
-        <!-- Add more menu sections here -->
 
     </div>
 </div>
+
 
 <script>
     function openMenu(evt, menuName) {
@@ -116,3 +114,6 @@
 
 </body>
 </html>
+
+
+
