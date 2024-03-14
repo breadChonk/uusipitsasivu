@@ -18,6 +18,13 @@ function kirjaudu(){
 function redirect(){
     window.location.href="index.html";
 }
-function redirect(){
+
+function rekisteri(){
+    Usnimi = document.getElementById("nimi").value;
+    Ussalasana = document.getElementById("salasana").value;
+    console.log(Usnimi + " " + Ussalasana);
+    localStorage.setItem("nimi", Usnimi);
+    localStorage.setItem("salasana", Ussalasana);
+    redirect("index.html")=
     window.location.href="index.html";
 }
